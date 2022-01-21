@@ -1,13 +1,16 @@
 .post {
   display: grid;
   grid-template-columns: 327px;
-  grid-template-rows: 34px auto 20px;
+  grid-template-rows: 32px auto 20px;
 }
 
 .post__profile-info {
   background-color: black;
-  display: flex;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 32px auto 32px;
+  margin: 0;
+  padding: 0;
+  column-gap: 5px;
 }
 
 .post__profile-info-img {
@@ -20,6 +23,8 @@
   font-weight: bold;
   line-height: 16px;
   color: #ecebed;
+  margin: 0;
+  padding: 0;
 }
 
 .post__profile-info-time {
@@ -28,6 +33,8 @@
   font-weight: medium;
   line-height: 16px;
   color: #727477;
+  margin: 0;
+  padding: 0;
 }
 
 .post__text {
@@ -37,14 +44,34 @@
   line-height: 24px;
   color: #ecebed;
   background-color: black;
+  padding: 20px 0;
 }
 
 .post__actions {
-  border: 1px solid black;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__actions--bookmark {
+  margin-right: 10px;
+  margin-bottom: -4px;
+}
+
+.post__actions--social {
+  padding-right: 20px;
+}
+
+.post__actions--social-num {
+  padding-right: 5px;
 }
 
 button {
   border: 0;
-  padding: 0;
-  background-color: tomato;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
 }
