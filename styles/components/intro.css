@@ -1,0 +1,23 @@
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  width: 327px;
+  height: 32px;
+}
+
+.intro__text {
+  color: white;
+  font-family: "HK Grotesk", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.intro__button {
+  padding: 0;
+  border: 0;
+  background-color: black;
+  height: 100%;
+}
