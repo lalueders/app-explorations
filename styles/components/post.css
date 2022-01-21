@@ -1,0 +1,50 @@
+.post {
+  display: grid;
+  grid-template-columns: 327px;
+  grid-template-rows: 34px auto 20px;
+}
+
+.post__profile-info {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.post__profile-info-img {
+  border-radius: 50%;
+}
+
+.post__profile-info-name {
+  font-family: "HK Grotesk", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #ecebed;
+}
+
+.post__profile-info-time {
+  font-family: "HK Grotesk", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: medium;
+  line-height: 16px;
+  color: #727477;
+}
+
+.post__text {
+  font-family: "HK Grotesk", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #ecebed;
+  background-color: black;
+}
+
+.post__actions {
+  border: 1px solid black;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background-color: tomato;
+}
