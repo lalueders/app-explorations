@@ -1,11 +1,15 @@
+section {
+  width: 327px;
+}
+
 .post {
   display: grid;
-  grid-template-columns: 100%;
+  grid-template-columns: auto;
   grid-template-rows: 32px auto 20px;
+  background-color: black;
 }
 
 .post__profile-info {
-  background-color: black;
   display: grid;
   grid-template-columns: 32px auto 32px;
   margin: 0;
@@ -43,12 +47,10 @@
   font-weight: normal;
   line-height: 24px;
   color: #ecebed;
-  background-color: black;
   padding: 20px 0;
 }
 
 .post__actions {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,4 +76,17 @@ button {
   font-size: 12px;
   font-weight: 600;
   line-height: 16px;
+}
+
+.post__img {
+  line-height: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  overflow-x: scroll;
+  padding: 20px 0;
+}
+
+.post__img--style {
+  border-radius: 16px;
 }
