@@ -16,11 +16,7 @@
   position: relative;
 }
 
-.stories__bg-image {
-  border-radius: 15px;
-}
-
-.stories__profile-image-ctn {
+.stories__image {
   position: absolute;
   bottom: 4px;
   border-radius: 50%;
@@ -28,7 +24,11 @@
   transform: translate(-50%);
 }
 
-.stories__profile-image {
+.stories__image--bg {
+  border-radius: 15px;
+}
+
+.stories__image--profile {
   border-radius: 50%;
   border: 1px solid hotpink;
 }
