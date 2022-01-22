@@ -5,4 +5,5 @@
 /* @import 'components stylesheets' here */
 
 @import "./components/button.css";
+@import "./components/post.css";
 @import "./components/intro.css";
