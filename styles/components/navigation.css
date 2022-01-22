@@ -1,0 +1,28 @@
+.navigation {
+  background-color: #000000;
+  min-height: 88px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+}
+
+.navigation__list {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.navigation__item {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.navigation__link {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-items: center;
+}
