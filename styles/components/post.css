@@ -1,6 +1,6 @@
 .post {
   display: grid;
-  grid-template-columns: 327px;
+  grid-template-columns: 100%;
   grid-template-rows: 32px auto 20px;
 }
 
