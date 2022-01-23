@@ -9,19 +9,22 @@
 }
 
 .app-grid__header {
-  background-color: blue;
+  background-color: var(--black);
+  color: var(--white);
   position: sticky;
   top: 0px;
+  z-index: 2;
 }
 
 .app-grid__main {
-  background-color: blueviolet;
+  color: white;
   height: 100vh;
   overflow-y: scroll;
 }
 
 .app-grid__nav {
-  background-color: blue;
+  background-color: var(--black);
+  color: var(--white);
   position: sticky;
   bottom: 0;
 }

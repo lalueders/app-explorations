@@ -9,10 +9,741 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
-      recusandae.
-    </p>
+    <div class="app-grid mglr-24 mgt-16">
+      <header class="app-grid__header"><section class="intro">
+        <p class="intro__text">Good Morning, Alex.</p>
+        <button class="intro__button">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M8.5 12.6667L15.075 17.05C15.3489 17.2327 15.6708 17.3302 16 17.3302C16.3292 17.3302 16.6511 17.2327 16.925 17.05L23.5 12.6667M10.1667 21.8333H21.8333C22.2754 21.8333 22.6993 21.6577 23.0118 21.3452C23.3244 21.0326 23.5 20.6087 23.5 20.1667V11.8333C23.5 11.3913 23.3244 10.9674 23.0118 10.6548C22.6993 10.3423 22.2754 10.1667 21.8333 10.1667H10.1667C9.72464 10.1667 9.30072 10.3423 8.98816 10.6548C8.67559 10.9674 8.5 11.3913 8.5 11.8333V20.1667C8.5 20.6087 8.67559 21.0326 8.98816 21.3452C9.30072 21.6577 9.72464 21.8333 10.1667 21.8333Z" stroke="#ECEBED" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="23" cy="10" r="3" fill="#F72E8E" stroke="white" stroke-width="1.2"/>
+            <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" stroke="#727477"/>
+            </svg>
+            <rect x="0.5" y="0.5" width="31" height="31" rx="15.5" stroke="#727477" />
+          </svg>
+        </button>
+      </section></header>
+      <main class="app-grid__main">
+          <section class="stories mgb-24">
+            <article class="stories__card">
+              <figure>
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--bg"
+                  width="100"
+                  height="140"
+                />
+              </figure>
+              <figure class="stories__image">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--profile"
+                  width="32"
+                  height="32"
+                />
+              </figure>
+            </article>
+        
+            <article class="stories__card">
+              <figure>
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--bg"
+                  width="100"
+                  height="140"
+                />
+              </figure>
+              <figure class="stories__image">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--profile"
+                  width="32"
+                  height="32"
+                />
+              </figure>
+            </article>
+        
+            <article class="stories__card">
+              <figure>
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--bg"
+                  width="100"
+                  height="140"
+                />
+              </figure>
+              <figure class="stories__image">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--profile"
+                  width="32"
+                  height="32"
+                />
+              </figure>
+            </article>
+        
+            <article class="stories__card">
+              <figure>
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--bg"
+                  width="100"
+                  height="140"
+                />
+              </figure>
+              <figure class="stories__image">
+                <img
+                  src="https://source.unsplash.com/random"
+                  alt="Image of the Story"
+                  class="stories__image--profile"
+                  width="32"
+                  height="32"
+                />
+              </figure>
+            </article>
+          </section>
+        
+        <section class="post mgb-24">
+          <div class="post__profile-info">
+            <img
+              class="post__profile-info-img"
+              src="https://source.unsplash.com/random/40x40"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <div>
+              <h2 class="post__profile-info-name">Jacob Washington</h2>
+              <p class="post__profile-info-time">20m ago</p>
+            </div>
+            <button>
+              <svg
+                width="4"
+                height="18"
+                viewBox="0 0 4 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2V2.01V2ZM2 9V9.01V9ZM2 16V16.01V16ZM2 3C1.73478 3 1.48043 2.89464 1.29289 2.70711C1.10536 2.51957 1 2.26522 1 2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1C2.26522 1 2.51957 1.10536 2.70711 1.29289C2.89464 1.48043 3 1.73478 3 2C3 2.26522 2.89464 2.51957 2.70711 2.70711C2.51957 2.89464 2.26522 3 2 3ZM2 10C1.73478 10 1.48043 9.89464 1.29289 9.70711C1.10536 9.51957 1 9.26522 1 9C1 8.73478 1.10536 8.48043 1.29289 8.29289C1.48043 8.10536 1.73478 8 2 8C2.26522 8 2.51957 8.10536 2.70711 8.29289C2.89464 8.48043 3 8.73478 3 9C3 9.26522 2.89464 9.51957 2.70711 9.70711C2.51957 9.89464 2.26522 10 2 10ZM2 17C1.73478 17 1.48043 16.8946 1.29289 16.7071C1.10536 16.5196 1 16.2652 1 16C1 15.7348 1.10536 15.4804 1.29289 15.2929C1.48043 15.1054 1.73478 15 2 15C2.26522 15 2.51957 15.1054 2.70711 15.2929C2.89464 15.4804 3 15.7348 3 16C3 16.2652 2.89464 16.5196 2.70711 16.7071C2.51957 16.8946 2.26522 17 2 17Z"
+                  stroke="#727477"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <article class="post__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid
+            quo quis, quos autem alias? Delectus culpa minus sint soluta. Molestias,
+            reiciendis quo ex pariatur eaque totam voluptate. Quod, minima?
+          </article>
+          <div class="post__actions">
+            <div>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33333 5.66667H11.5093C11.7366 5.66667 11.96 5.72476 12.1585 5.83542C12.357 5.94607 12.5239 6.10562 12.6434 6.29891C12.7629 6.4922 12.831 6.71283 12.8413 6.93984C12.8515 7.16686 12.8036 7.39272 12.702 7.596L10.3687 12.2627C10.2579 12.4843 10.0876 12.6707 9.8768 12.8009C9.66601 12.9312 9.42311 13.0001 9.17533 13H6.49733C6.38867 13 6.28 12.9867 6.174 12.96L3.66667 12.3333M8.33333 5.66667V2.33333C8.33333 1.97971 8.19286 1.64057 7.94281 1.39052C7.69276 1.14048 7.35362 1 7 1H6.93667C6.60333 1 6.33333 1.27 6.33333 1.60333C6.33333 2.07933 6.19267 2.54467 5.928 2.94067L3.66667 6.33333V12.3333M8.33333 5.66667H7M3.66667 12.3333H2.33333C1.97971 12.3333 1.64057 12.1929 1.39052 11.9428C1.14048 11.6928 1 11.3536 1 11V7C1 6.64638 1.14048 6.30724 1.39052 6.05719C1.64057 5.80714 1.97971 5.66667 2.33333 5.66667H4"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span class="post__actions--social-num">2,245</span>
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.33333 6.99999H4.34M7 6.99999H7.00667M9.66667 6.99999H9.67333M13 6.99999C13 9.94532 10.3133 12.3333 7 12.3333C6.01909 12.3367 5.04986 12.1205 4.16333 11.7007L1 12.3333L1.93 9.85332C1.34133 9.02799 1 8.04932 1 6.99999C1 4.05466 3.68667 1.66666 7 1.66666C10.3133 1.66666 13 4.05466 13 6.99999Z"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                45
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.66667 9.66666V10.3333C1.66667 10.8638 1.87739 11.3725 2.25246 11.7475C2.62753 12.1226 3.13624 12.3333 3.66667 12.3333H10.3333C10.8638 12.3333 11.3725 12.1226 11.7476 11.7475C12.1226 11.3725 12.3333 10.8638 12.3333 10.3333V9.66666M9.66667 4.33332L7 1.66666M7 1.66666L4.33334 4.33332M7 1.66666V9.66666"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                124
+              </button>
+            </div>
+            <button>
+              <svg
+                class="post__actions--bookmark"
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.65481 1.98816C1.34225 2.30072 1.16666 2.72464 1.16666 3.16667V16.5L6.99999 13.5833L12.8333 16.5V3.16667C12.8333 2.72464 12.6577 2.30072 12.3452 1.98816C12.0326 1.67559 11.6087 1.5 11.1667 1.5H2.83332C2.3913 1.5 1.96737 1.67559 1.65481 1.98816Z"
+                  stroke="#ECEBED"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        
+        <section class="post mgb-24">
+          <div class="post__profile-info">
+            <img
+              class="post__profile-info-img"
+              src="https://source.unsplash.com/random/40x40"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <div>
+              <h2 class="post__profile-info-name">Jacob Washington</h2>
+              <p class="post__profile-info-time">20m ago</p>
+            </div>
+            <button>
+              <svg
+                width="4"
+                height="18"
+                viewBox="0 0 4 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2V2.01V2ZM2 9V9.01V9ZM2 16V16.01V16ZM2 3C1.73478 3 1.48043 2.89464 1.29289 2.70711C1.10536 2.51957 1 2.26522 1 2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1C2.26522 1 2.51957 1.10536 2.70711 1.29289C2.89464 1.48043 3 1.73478 3 2C3 2.26522 2.89464 2.51957 2.70711 2.70711C2.51957 2.89464 2.26522 3 2 3ZM2 10C1.73478 10 1.48043 9.89464 1.29289 9.70711C1.10536 9.51957 1 9.26522 1 9C1 8.73478 1.10536 8.48043 1.29289 8.29289C1.48043 8.10536 1.73478 8 2 8C2.26522 8 2.51957 8.10536 2.70711 8.29289C2.89464 8.48043 3 8.73478 3 9C3 9.26522 2.89464 9.51957 2.70711 9.70711C2.51957 9.89464 2.26522 10 2 10ZM2 17C1.73478 17 1.48043 16.8946 1.29289 16.7071C1.10536 16.5196 1 16.2652 1 16C1 15.7348 1.10536 15.4804 1.29289 15.2929C1.48043 15.1054 1.73478 15 2 15C2.26522 15 2.51957 15.1054 2.70711 15.2929C2.89464 15.4804 3 15.7348 3 16C3 16.2652 2.89464 16.5196 2.70711 16.7071C2.51957 16.8946 2.26522 17 2 17Z"
+                  stroke="#727477"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        
+          <article class="post__img">
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+          </article>
+        
+          <div class="post__actions">
+            <div>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33333 5.66667H11.5093C11.7366 5.66667 11.96 5.72476 12.1585 5.83542C12.357 5.94607 12.5239 6.10562 12.6434 6.29891C12.7629 6.4922 12.831 6.71283 12.8413 6.93984C12.8515 7.16686 12.8036 7.39272 12.702 7.596L10.3687 12.2627C10.2579 12.4843 10.0876 12.6707 9.8768 12.8009C9.66601 12.9312 9.42311 13.0001 9.17533 13H6.49733C6.38867 13 6.28 12.9867 6.174 12.96L3.66667 12.3333M8.33333 5.66667V2.33333C8.33333 1.97971 8.19286 1.64057 7.94281 1.39052C7.69276 1.14048 7.35362 1 7 1H6.93667C6.60333 1 6.33333 1.27 6.33333 1.60333C6.33333 2.07933 6.19267 2.54467 5.928 2.94067L3.66667 6.33333V12.3333M8.33333 5.66667H7M3.66667 12.3333H2.33333C1.97971 12.3333 1.64057 12.1929 1.39052 11.9428C1.14048 11.6928 1 11.3536 1 11V7C1 6.64638 1.14048 6.30724 1.39052 6.05719C1.64057 5.80714 1.97971 5.66667 2.33333 5.66667H4"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span class="post__actions--social-num">2,245</span>
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.33333 6.99999H4.34M7 6.99999H7.00667M9.66667 6.99999H9.67333M13 6.99999C13 9.94532 10.3133 12.3333 7 12.3333C6.01909 12.3367 5.04986 12.1205 4.16333 11.7007L1 12.3333L1.93 9.85332C1.34133 9.02799 1 8.04932 1 6.99999C1 4.05466 3.68667 1.66666 7 1.66666C10.3133 1.66666 13 4.05466 13 6.99999Z"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                45
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.66667 9.66666V10.3333C1.66667 10.8638 1.87739 11.3725 2.25246 11.7475C2.62753 12.1226 3.13624 12.3333 3.66667 12.3333H10.3333C10.8638 12.3333 11.3725 12.1226 11.7476 11.7475C12.1226 11.3725 12.3333 10.8638 12.3333 10.3333V9.66666M9.66667 4.33332L7 1.66666M7 1.66666L4.33334 4.33332M7 1.66666V9.66666"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                124
+              </button>
+            </div>
+            <button>
+              <svg
+                class="post__actions--bookmark"
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.65481 1.98816C1.34225 2.30072 1.16666 2.72464 1.16666 3.16667V16.5L6.99999 13.5833L12.8333 16.5V3.16667C12.8333 2.72464 12.6577 2.30072 12.3452 1.98816C12.0326 1.67559 11.6087 1.5 11.1667 1.5H2.83332C2.3913 1.5 1.96737 1.67559 1.65481 1.98816Z"
+                  stroke="#ECEBED"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        <section class="post mgb-24">
+          <div class="post__profile-info">
+            <img
+              class="post__profile-info-img"
+              src="https://source.unsplash.com/random/40x40"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <div>
+              <h2 class="post__profile-info-name">Jacob Washington</h2>
+              <p class="post__profile-info-time">20m ago</p>
+            </div>
+            <button>
+              <svg
+                width="4"
+                height="18"
+                viewBox="0 0 4 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2V2.01V2ZM2 9V9.01V9ZM2 16V16.01V16ZM2 3C1.73478 3 1.48043 2.89464 1.29289 2.70711C1.10536 2.51957 1 2.26522 1 2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1C2.26522 1 2.51957 1.10536 2.70711 1.29289C2.89464 1.48043 3 1.73478 3 2C3 2.26522 2.89464 2.51957 2.70711 2.70711C2.51957 2.89464 2.26522 3 2 3ZM2 10C1.73478 10 1.48043 9.89464 1.29289 9.70711C1.10536 9.51957 1 9.26522 1 9C1 8.73478 1.10536 8.48043 1.29289 8.29289C1.48043 8.10536 1.73478 8 2 8C2.26522 8 2.51957 8.10536 2.70711 8.29289C2.89464 8.48043 3 8.73478 3 9C3 9.26522 2.89464 9.51957 2.70711 9.70711C2.51957 9.89464 2.26522 10 2 10ZM2 17C1.73478 17 1.48043 16.8946 1.29289 16.7071C1.10536 16.5196 1 16.2652 1 16C1 15.7348 1.10536 15.4804 1.29289 15.2929C1.48043 15.1054 1.73478 15 2 15C2.26522 15 2.51957 15.1054 2.70711 15.2929C2.89464 15.4804 3 15.7348 3 16C3 16.2652 2.89464 16.5196 2.70711 16.7071C2.51957 16.8946 2.26522 17 2 17Z"
+                  stroke="#727477"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <article class="post__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam aliquid
+            quo quis, quos autem alias? Delectus culpa minus sint soluta. Molestias,
+            reiciendis quo ex pariatur eaque totam voluptate. Quod, minima?
+          </article>
+          <div class="post__actions">
+            <div>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33333 5.66667H11.5093C11.7366 5.66667 11.96 5.72476 12.1585 5.83542C12.357 5.94607 12.5239 6.10562 12.6434 6.29891C12.7629 6.4922 12.831 6.71283 12.8413 6.93984C12.8515 7.16686 12.8036 7.39272 12.702 7.596L10.3687 12.2627C10.2579 12.4843 10.0876 12.6707 9.8768 12.8009C9.66601 12.9312 9.42311 13.0001 9.17533 13H6.49733C6.38867 13 6.28 12.9867 6.174 12.96L3.66667 12.3333M8.33333 5.66667V2.33333C8.33333 1.97971 8.19286 1.64057 7.94281 1.39052C7.69276 1.14048 7.35362 1 7 1H6.93667C6.60333 1 6.33333 1.27 6.33333 1.60333C6.33333 2.07933 6.19267 2.54467 5.928 2.94067L3.66667 6.33333V12.3333M8.33333 5.66667H7M3.66667 12.3333H2.33333C1.97971 12.3333 1.64057 12.1929 1.39052 11.9428C1.14048 11.6928 1 11.3536 1 11V7C1 6.64638 1.14048 6.30724 1.39052 6.05719C1.64057 5.80714 1.97971 5.66667 2.33333 5.66667H4"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span class="post__actions--social-num">2,245</span>
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.33333 6.99999H4.34M7 6.99999H7.00667M9.66667 6.99999H9.67333M13 6.99999C13 9.94532 10.3133 12.3333 7 12.3333C6.01909 12.3367 5.04986 12.1205 4.16333 11.7007L1 12.3333L1.93 9.85332C1.34133 9.02799 1 8.04932 1 6.99999C1 4.05466 3.68667 1.66666 7 1.66666C10.3133 1.66666 13 4.05466 13 6.99999Z"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                45
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.66667 9.66666V10.3333C1.66667 10.8638 1.87739 11.3725 2.25246 11.7475C2.62753 12.1226 3.13624 12.3333 3.66667 12.3333H10.3333C10.8638 12.3333 11.3725 12.1226 11.7476 11.7475C12.1226 11.3725 12.3333 10.8638 12.3333 10.3333V9.66666M9.66667 4.33332L7 1.66666M7 1.66666L4.33334 4.33332M7 1.66666V9.66666"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                124
+              </button>
+            </div>
+            <button>
+              <svg
+                class="post__actions--bookmark"
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.65481 1.98816C1.34225 2.30072 1.16666 2.72464 1.16666 3.16667V16.5L6.99999 13.5833L12.8333 16.5V3.16667C12.8333 2.72464 12.6577 2.30072 12.3452 1.98816C12.0326 1.67559 11.6087 1.5 11.1667 1.5H2.83332C2.3913 1.5 1.96737 1.67559 1.65481 1.98816Z"
+                  stroke="#ECEBED"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        
+        <section class="post mgb-24">
+          <div class="post__profile-info">
+            <img
+              class="post__profile-info-img"
+              src="https://source.unsplash.com/random/40x40"
+              alt=""
+              width="32"
+              height="32"
+            />
+            <div>
+              <h2 class="post__profile-info-name">Jacob Washington</h2>
+              <p class="post__profile-info-time">20m ago</p>
+            </div>
+            <button>
+              <svg
+                width="4"
+                height="18"
+                viewBox="0 0 4 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2 2V2.01V2ZM2 9V9.01V9ZM2 16V16.01V16ZM2 3C1.73478 3 1.48043 2.89464 1.29289 2.70711C1.10536 2.51957 1 2.26522 1 2C1 1.73478 1.10536 1.48043 1.29289 1.29289C1.48043 1.10536 1.73478 1 2 1C2.26522 1 2.51957 1.10536 2.70711 1.29289C2.89464 1.48043 3 1.73478 3 2C3 2.26522 2.89464 2.51957 2.70711 2.70711C2.51957 2.89464 2.26522 3 2 3ZM2 10C1.73478 10 1.48043 9.89464 1.29289 9.70711C1.10536 9.51957 1 9.26522 1 9C1 8.73478 1.10536 8.48043 1.29289 8.29289C1.48043 8.10536 1.73478 8 2 8C2.26522 8 2.51957 8.10536 2.70711 8.29289C2.89464 8.48043 3 8.73478 3 9C3 9.26522 2.89464 9.51957 2.70711 9.70711C2.51957 9.89464 2.26522 10 2 10ZM2 17C1.73478 17 1.48043 16.8946 1.29289 16.7071C1.10536 16.5196 1 16.2652 1 16C1 15.7348 1.10536 15.4804 1.29289 15.2929C1.48043 15.1054 1.73478 15 2 15C2.26522 15 2.51957 15.1054 2.70711 15.2929C2.89464 15.4804 3 15.7348 3 16C3 16.2652 2.89464 16.5196 2.70711 16.7071C2.51957 16.8946 2.26522 17 2 17Z"
+                  stroke="#727477"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        
+          <article class="post__img">
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+            <img
+              class="post__img--style"
+              src="https://source.unsplash.com/random/327x180"
+              alt=""
+              width="327"
+              height="180"
+            />
+          </article>
+        
+          <div class="post__actions">
+            <div>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8.33333 5.66667H11.5093C11.7366 5.66667 11.96 5.72476 12.1585 5.83542C12.357 5.94607 12.5239 6.10562 12.6434 6.29891C12.7629 6.4922 12.831 6.71283 12.8413 6.93984C12.8515 7.16686 12.8036 7.39272 12.702 7.596L10.3687 12.2627C10.2579 12.4843 10.0876 12.6707 9.8768 12.8009C9.66601 12.9312 9.42311 13.0001 9.17533 13H6.49733C6.38867 13 6.28 12.9867 6.174 12.96L3.66667 12.3333M8.33333 5.66667V2.33333C8.33333 1.97971 8.19286 1.64057 7.94281 1.39052C7.69276 1.14048 7.35362 1 7 1H6.93667C6.60333 1 6.33333 1.27 6.33333 1.60333C6.33333 2.07933 6.19267 2.54467 5.928 2.94067L3.66667 6.33333V12.3333M8.33333 5.66667H7M3.66667 12.3333H2.33333C1.97971 12.3333 1.64057 12.1929 1.39052 11.9428C1.14048 11.6928 1 11.3536 1 11V7C1 6.64638 1.14048 6.30724 1.39052 6.05719C1.64057 5.80714 1.97971 5.66667 2.33333 5.66667H4"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span class="post__actions--social-num">2,245</span>
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.33333 6.99999H4.34M7 6.99999H7.00667M9.66667 6.99999H9.67333M13 6.99999C13 9.94532 10.3133 12.3333 7 12.3333C6.01909 12.3367 5.04986 12.1205 4.16333 11.7007L1 12.3333L1.93 9.85332C1.34133 9.02799 1 8.04932 1 6.99999C1 4.05466 3.68667 1.66666 7 1.66666C10.3133 1.66666 13 4.05466 13 6.99999Z"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                45
+              </button>
+              <button class="post__actions--social">
+                <svg
+                  width="14"
+                  height="14"
+                  viewBox="0 0 14 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1.66667 9.66666V10.3333C1.66667 10.8638 1.87739 11.3725 2.25246 11.7475C2.62753 12.1226 3.13624 12.3333 3.66667 12.3333H10.3333C10.8638 12.3333 11.3725 12.1226 11.7476 11.7475C12.1226 11.3725 12.3333 10.8638 12.3333 10.3333V9.66666M9.66667 4.33332L7 1.66666M7 1.66666L4.33334 4.33332M7 1.66666V9.66666"
+                    stroke="#ECEBED"
+                    stroke-width="1.4"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                124
+              </button>
+            </div>
+            <button>
+              <svg
+                class="post__actions--bookmark"
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1.65481 1.98816C1.34225 2.30072 1.16666 2.72464 1.16666 3.16667V16.5L6.99999 13.5833L12.8333 16.5V3.16667C12.8333 2.72464 12.6577 2.30072 12.3452 1.98816C12.0326 1.67559 11.6087 1.5 11.1667 1.5H2.83332C2.3913 1.5 1.96737 1.67559 1.65481 1.98816Z"
+                  stroke="#ECEBED"
+                  stroke-width="1.4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </section>
+        
+      </main>
+      <nav class="navigation">
+        <ul class="navigation__list" role="list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">
+              <svg
+                class="navigation__icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M4.29289 5H20.2929M15 11H20.2929M15 15H20.2929M15 19H20.2929M4 12C4 11.7348 4.10536 11.4804 4.29289 11.2929C4.48043 11.1054 4.73478 11 5 11H11C11.2652 11 11.5196 11.1054 11.7071 11.2929C11.8946 11.4804 12 11.7348 12 12V18C12 18.2652 11.8946 18.5196 11.7071 18.7071C11.5196 18.8946 11.2652 19 11 19H5C4.73478 19 4.48043 18.8946 4.29289 18.7071C4.10536 18.5196 4 18.2652 4 18V12Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+      
+          <li class="navigation__item">
+            <a class="navigation__link" href="#"
+              ><svg
+                class="navigation__icon"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M7.99999 3.99997C6.93913 3.99997 5.92171 4.4214 5.17156 5.17155C4.42142 5.92169 3.99999 6.93911 3.99999 7.99997C3.99999 9.06084 4.42142 10.0783 5.17156 10.8284C5.92171 11.5785 6.93913 12 7.99999 12C9.06086 12 10.0783 11.5785 10.8284 10.8284C11.5786 10.0783 12 9.06084 12 7.99997C12 6.93911 11.5786 5.92169 10.8284 5.17155C10.0783 4.4214 9.06086 3.99997 7.99999 3.99997ZM1.99999 7.99997C1.99987 7.05568 2.22263 6.12468 2.65016 5.28271C3.07769 4.44074 3.69791 3.71157 4.46039 3.1545C5.22286 2.59743 6.10605 2.22819 7.03814 2.07681C7.97022 1.92543 8.92487 1.99618 9.82446 2.28332C10.724 2.57046 11.5431 3.06587 12.2152 3.72927C12.8872 4.39266 13.3931 5.20531 13.6918 6.10111C13.9906 6.9969 14.0736 7.95056 13.9343 8.88452C13.795 9.81848 13.4372 10.7064 12.89 11.476L17.707 16.293C17.8891 16.4816 17.9899 16.7342 17.9877 16.9964C17.9854 17.2586 17.8802 17.5094 17.6948 17.6948C17.5094 17.8802 17.2586 17.9854 16.9964 17.9876C16.7342 17.9899 16.4816 17.8891 16.293 17.707L11.477 12.891C10.5794 13.5293 9.52334 13.9081 8.42467 13.9861C7.326 14.0641 6.22706 13.8381 5.24829 13.3329C4.26952 12.8278 3.44868 12.063 2.87572 11.1223C2.30275 10.1816 1.99978 9.10141 1.99999 7.99997V7.99997Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </li>
+      
+          <li class="navigation__item">
+            <a class="navigation__link" href="#"
+              ><svg
+                class="navigation__icon"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="40"
+                  height="40"
+                  rx="20"
+                  fill="url(#paint0_linear_204_401)"
+                />
+                <path
+                  d="M20 14V20M20 20V26M20 20H26M20 20H14"
+                  stroke="white"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <defs>
+                  <linearGradient
+                    id="paint0_linear_204_401"
+                    x1="1.49012e-07"
+                    y1="20"
+                    x2="41.1356"
+                    y2="20"
+                    gradientUnits="userSpaceOnUse"
+                  >
+                    <stop stop-color="#F72E8E" />
+                    <stop offset="1" stop-color="#AC1AF0" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">
+              <svg
+                class="navigation__icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15 17H20L18.595 15.595C18.4063 15.4063 18.2567 15.1822 18.1546 14.9357C18.0525 14.6891 18 14.4249 18 14.158V11C18.0002 9.75894 17.6156 8.54834 16.8992 7.53489C16.1829 6.52144 15.17 5.75496 14 5.341V5C14 4.46957 13.7893 3.96086 13.4142 3.58579C13.0391 3.21071 12.5304 3 12 3C11.4696 3 10.9609 3.21071 10.5858 3.58579C10.2107 3.96086 10 4.46957 10 5V5.341C7.67 6.165 6 8.388 6 11V14.159C6 14.697 5.786 15.214 5.405 15.595L4 17H9M15 17H9M15 17V18C15 18.7956 14.6839 19.5587 14.1213 20.1213C13.5587 20.6839 12.7956 21 12 21C11.2044 21 10.4413 20.6839 9.87868 20.1213C9.31607 19.5587 9 18.7956 9 18V17"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">
+              <svg
+                class="navigation__icon"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5.121 17.804C7.21942 16.6179 9.58958 15.9963 12 16C14.5 16 16.847 16.655 18.879 17.804M15 10C15 10.7956 14.6839 11.5587 14.1213 12.1213C13.5587 12.6839 12.7956 13 12 13C11.2044 13 10.4413 12.6839 9.87868 12.1213C9.31607 11.5587 9 10.7956 9 10C9 9.20435 9.31607 8.44129 9.87868 7.87868C10.4413 7.31607 11.2044 7 12 7C12.7956 7 13.5587 7.31607 14.1213 7.87868C14.6839 8.44129 15 9.20435 15 10ZM21 12C21 13.1819 20.7672 14.3522 20.3149 15.4442C19.8626 16.5361 19.1997 17.5282 18.364 18.364C17.5282 19.1997 16.5361 19.8626 15.4442 20.3149C14.3522 20.7672 13.1819 21 12 21C10.8181 21 9.64778 20.7672 8.55585 20.3149C7.46392 19.8626 6.47177 19.1997 5.63604 18.364C4.80031 17.5282 4.13738 16.5361 3.68508 15.4442C3.23279 14.3522 3 13.1819 3 12C3 9.61305 3.94821 7.32387 5.63604 5.63604C7.32387 3.94821 9.61305 3 12 3C14.3869 3 16.6761 3.94821 18.364 5.63604C20.0518 7.32387 21 9.61305 21 12Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      
+    </div>
   </body>
 </html>
