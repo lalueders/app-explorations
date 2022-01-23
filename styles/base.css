@@ -9,6 +9,7 @@ body {
   font-size: 112.5%;
   margin: 0;
   padding: 0;
+  font-family: "HK Grotesk", Helvetica, sans-serif;
 }
 
 li {
@@ -19,4 +20,10 @@ li {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
 }
