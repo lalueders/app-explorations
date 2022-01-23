@@ -1,0 +1,28 @@
+.filters {
+  color: var(--color-grey);
+  height: 28px;
+  display: flex;
+  align-items: stretch;
+  overflow-x: slide;
+}
+
+.filters__list {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.filters__item {
+  font-size: 0.8rem;
+  border: 1px solid var(--color-grey);
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+
+.filters__item:hover {
+  background-color: #2e8af6;
+  border: none;
+  color: var(--white);
+}
